@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+
+    <vType id="car" accel="4" decel="4" length="5" maxSpeed="20" guiShape="passenger"/>
+ 
+
+
+  <flow id="1"  begin="0" end="7200" vehsPerHour="50"  type="car" departLane='random'
+      from = "-Y2" to = "Y2" />
+  <flow id="10"  begin="0" end="7200" vehsPerHour="50"  type="car" departLane='random'
+      from = "-Y2" to = "x2" />
+<flow id="11"  begin="0" end="7200" vehsPerHour="50"  type="car" departLane='random'
+      from = "-Y2" to = "-x1" />
+
+
+  <flow id="2"  begin="0" end="7200" vehsPerHour="50"  type="car" departLane='random'
+      from = "Y1" to = "-Y1" />
+  <flow id="20"  begin="0" end="7200" vehsPerHour="50"  type="car" departLane='random'
+      from = "Y1" to = "-x1" />
+<flow id="21"  begin="0" end="7200" vehsPerHour="50"  type="car" departLane='random'
+      from = "Y1" to = "x2" />
+
+
+  <flow id="3"  begin="0" end="7200" vehsPerHour="50"  type="car" departLane='random'
+      from = "-x2" to = "x2" />
+  <flow id="30"  begin="0" end="7200" vehsPerHour="50"  type="car" departLane='random'
+      from = "-x2" to = "Y2" />
+<flow id="31"  begin="0" end="7200" vehsPerHour="50"  type="car" departLane='random'
+      from = "-x2" to = "-Y1" />
+
+ 
+
+
+  <flow id="4"  begin="0" end="7200" vehsPerHour="50"  type="car" departLane='random'
+      from = "x1" to = "-x1" />
+  <flow id="40"  begin="0" end="7200" vehsPerHour="50"  type="car" departLane='random'
+      from = "x1" to = "-Y1" />
+<flow id="41"  begin="0" end="7200" vehsPerHour="50"  type="car" departLane='random'
+      from = "x1" to = "Y2" />
+
+   
+</routes> 
